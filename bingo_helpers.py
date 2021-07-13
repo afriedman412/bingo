@@ -72,7 +72,7 @@ teams = [
 
 generic = [
         "{} investigated by race control",
-        "Shot of {} pit", 
+        "Shot of {} pit crew", 
     ]
 
 unique = [
