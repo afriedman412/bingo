@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>F1 Bingo Card Generator</title>
+</head>
+
+<style>
+body {
+  margin: 40px;
+}
+
+.box {
+  background-color: lightgrey;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
+
+.wrapper {
+  width: 600px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  grid-auto-flow: column;
+
+}
+</style>
+
+<body>
+<div class="wrapper">
+{% for square in squares %}
+<div class="box box1">
+    square
+  </div>
+{% endfor %}
+</div>
+</body>
+</html>
