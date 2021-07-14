@@ -9,11 +9,13 @@ html_header = """
             function setColor(btn, color){
                 var property = document.getElementById(btn);
                 if (count == 0){
-                    property.style.backgroundColor = "#000000"
+                    property.style.backgroundColor = "#FFFFFF"
+                    property.style.color = "#000000"
                     count=1;        
                 }
                 else{
-                    property.style.backgroundColor = "#7FFF00"
+                    property.style.backgroundColor = "#000000"
+                    property.style.color = "#FFFFFF"
                     count=0;
                 }
 
@@ -22,20 +24,30 @@ html_header = """
         </head>
         <style>
 
+            @font-face {
+              font-family: 'Formula1';
+              src: local('Formula1-Display-Regular.woff') format('woff'), /* Modern Browsers */
+                   local('Formula1-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
+            }
+
             body {
               margin: 40px;
+              font-family: Arial, Helvetica, sans-serif;
             }
 
             .box {
-              background-color: black;
-              color: #fff;
+              background-color: white;
+              border-style: solid;
+              border-color: #e10600;
+              border-width: 4px;
+              color: black;
               border-radius: 5px;
               padding: 10px;
-              font-size: 85%;
+              font-size: 75%;
               text-align: center;
             }
 
-            .header {
+            .hed {
                 background-color: black;
                 color: #fff;
                 border-radius: 5px;
@@ -56,7 +68,7 @@ html_header = """
             }
         </style>
 
-        <div class="header" id="headr" onclick="setColor('headr', '#101010')">VROOMATES F1 BINGO</div>
+        <div class="hed" id="headr">VROOMATES F1 BINGO</div>
 
         """
 
