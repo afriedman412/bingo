@@ -26,7 +26,7 @@ html_header = """
 
             @font-face {
               font-family: 'Formula1';
-              src: local('Formula1-Display-Regular.woff') format('woff'), /* Modern Browsers */
+              src: url('Formula1-Display-Regular.woff') format('woff'), /* Modern Browsers */
                    local('Formula1-Regular.ttf')  format('truetype') /* Safari, Android, iOS */
             }
 
@@ -49,6 +49,8 @@ html_header = """
 
             .hed {
                 background-color: black;
+                font-family: "Formula1";
+                font-size: xx-large;
                 color: #fff;
                 border-radius: 5px;
                 padding: 10px;
@@ -89,7 +91,7 @@ generic = [
 
 unique = [
         "Lewis micromanages", 
-        "Yuki swears", 
+        "Beep'd out radio", 
         "Ferrari infighting", 
         "5 second penalty", 
         "Pit stop under 2 seconds", 
@@ -100,6 +102,10 @@ unique = [
         "Wing damage", 
         "Tire damage", 
         "Yellow flag", 
+        "Red flag",
+        "Brakes smoke or catch fire",
+        "Haas does some Haas shit",
+        "Race control notes (but doesn't investigate)",
         "Max unintelligible on the radio", 
         "“Marbles”", 
         "Mention someone’s dad", 
@@ -108,16 +114,21 @@ unique = [
         "Show a POC not related to a driver", 
         "Driver told to switch plans",
         "3+ DNFs", 
+        "“Penultimate”",
         "Christian Horner jiggling foot", 
         "Blue flag penalty", 
         "Toto Wolff extreme closeup", 
         "“Chicane”",
-        "Safety car!!!",
+        "Safety car (real)!!!",
+        "Safety car (virtual)!!!",
         "Mention Kimi's age or longevity",
-        "Anyone invokes Senna",
+        "Senna mentioned",
+        "Jensen Button mentioned",
         "Discussion of a driver doing an extremely rich person activity",
         "“Downforce”",
         "Driver comments on wind",
         "DRS overtake",
-        "Spinout"
+        "Spinout",
+        "Driver asks permission to pass teammate",
+        "Stop/go penalty"
         ]
