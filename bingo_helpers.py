@@ -103,16 +103,14 @@ unique = [
         "Tire damage", 
         "Yellow flag", 
         "Red flag",
-        "Overly serious comment about Sprint quali",
         "Brakes smoke or catch fire",
         "Haas does some Haas shit",
         "Race control notes (but doesn't investigate)",
         "Max unintelligible on the radio", 
         "“Marbles”", 
-        "Mention someone’s dad", 
-        "Show someone’s dad", 
+        "Mention someone’s dad",
         "“Box box box”", 
-        "Show a POC not related to a driver", 
+        "Fan of color", 
         "Driver told to switch plans",
         "3+ DNFs", 
         "“Penultimate”",
@@ -135,5 +133,16 @@ unique = [
         "DRS overtake",
         "Spinout",
         "Driver asks permission to pass teammate",
-        "Stop/go penalty"
+        "Stop/go penalty",
+        "10 second penalty",
+        "Black and white flag",
+        "Whole lap lead by not Merc/Red Bull",
+
+
+        # situational
+        "Lewis Hamilton booed",
+        "“Monaco Without The Boats”",
+        "Max/Lewis Crash mentioned",
+        "“A Tough Week”",
+        "”Harsh Words Exchanged this week”"
         ]
