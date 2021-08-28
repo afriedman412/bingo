@@ -86,17 +86,17 @@ teams = [
 
 generic = [
         "{} investigated by race control",
-        "Shot of {} pit crew", 
+        "Shot of {} pit crew (not during pit stop)", 
     ]
 
 unique = [
+        # evergreen
         "Lewis micromanages", 
         "Beep'd out radio", 
         "Ferrari infighting", 
         "5 second penalty", 
-        "Pit stop under 2 seconds", 
+        "Pit stop under 2.2 seconds", 
         "Pit stop over 4 seconds", 
-        "Speculation about second Mercedes seat 2022", 
         "“Debris”", 
         "Fun fact about host country", 
         "Wing damage", 
@@ -110,7 +110,6 @@ unique = [
         "“Marbles”", 
         "Mention someone’s dad",
         "“Box box box”", 
-        "Fan of color", 
         "Driver told to switch plans",
         "3+ DNFs", 
         "“Penultimate”",
@@ -121,13 +120,12 @@ unique = [
         "“Chicane”",
         "Safety car (real)!!!",
         "Safety car (virtual)!!!",
-        "Mention Kimi's age or longevity",
+        "Mention Kimi's being old",
         "Alonso called a legend or equivalent",
         "Arbitrary praise for Seb Vettel",
         "Senna mentioned",
         "Jensen Button mentioned",
         "David Coulthard mentioned",
-        "Discussion of a driver doing a rich person activity",
         "“Downforce”",
         "Driver comments on wind",
         "DRS overtake",
@@ -137,12 +135,15 @@ unique = [
         "10 second penalty",
         "Black and white flag",
         "Whole lap lead by not Merc/Red Bull",
-
+        "“Elbows out”",
+        "“HAMMERTIME”",
+        "Checo does something dirty"
 
         # situational
-        "Lewis Hamilton booed",
-        "“Monaco Without The Boats”",
-        "Max/Lewis Crash mentioned",
-        "“A Tough Week”",
-        "”Harsh Words Exchanged this week”"
+        "Lance Stroll alleged wet driving talent",
+        "Overestimating Ocon cuz Hungary",
+        "Speculation about George's Future",
+        "Terry to Alfa",
+        "Terry to Williams",
+        "“Michael Schumacher's first race: Spa 1991“"
         ]
