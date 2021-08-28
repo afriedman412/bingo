@@ -145,5 +145,6 @@ unique = [
         "Speculation about George's Future",
         "Terry to Alfa",
         "Terry to Williams",
-        "“Michael Schumacher's first race: Spa 1991“"
+        "“Michael Schumacher's first race: Spa 1991“",
+        "Eau Rouge"
         ]
