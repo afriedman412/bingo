@@ -136,8 +136,8 @@ unique = [
         "Black and white flag",
         "Whole lap lead by not Merc/Red Bull",
         "“Elbows out”",
-        "“HAMMERTIME”",
-        "Checo does something dirty"
+        "“HAMMER TIME”",
+        "Checo does something dirty",
 
         # situational
         "Lance Stroll alleged wet driving talent",
