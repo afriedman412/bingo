@@ -1,15 +1,10 @@
 from flask import Flask
-from bingo_helpers import *
+from bingo_helpers import html_header, html_tail
 import random
 
 def makeSquares():
-    full_generic = []
-    for g in generic:
-        full_generic += [g.format(t) for t in teams]
-
-    options = full_generic + unique
-
-    selections = random.sample(options, k=24)
+    squares = open("squares.txt").readlines()
+    selections = random.sample(squares, k=24)
     selections.insert(12, "LIGHTS OUT and AWAY WE GO!!!")
     return selections
 
