@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vroommates F1 Bingo</title>
+        <script>
+        var count=1;
+        function setColor(btn, color){
+            var property = document.getElementById(btn);
+            if (count == 0){
+                property.style.backgroundColor = "#FFFFFF"
+                property.style.color = "#000000"
+                count=1;        
+            }
+            else{
+                property.style.backgroundColor = "#000000"
+                property.style.color = "#FFFFFF"
+                count=0;
+            }
+
+        }
+        </script>
+    <link rel="stylesheet" type="text/css" href="../static/css/gridstyle.css">
+    </head>
+    
+<body>
+    <div class="grid-container">
+    <div class="grid-item grid-item-header" id="headr">VROOMATES F1 BINGO</div>
+        {% for s in squares: %}
+            
+            <div class="grid-item grid-item-square" id="square{{loop.index}}" onclick="setColor('square{{loop.index}}', '#101010')">{{s}}</div>
+            
+        {% endfor %}
+    </div>
+</body>
+</html>

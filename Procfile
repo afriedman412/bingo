@@ -1,1 +1,1 @@
-web: gunicorn bingo:app
+web: gunicorn app:app
