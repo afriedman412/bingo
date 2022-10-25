@@ -24,8 +24,12 @@
     
 <body>
     <div class="grid-container">
-    <div class="grid-item grid-item-seed">{{seed}}</div>
-    <div class="grid-item grid-item-header" id="headr">VROOMATES F1 BINGO</div>
+    <div class="grid-item grid-item-seed">
+        <a class="seed" href="/bingo/{{seed}}">{{seed}}</a>
+    </div>
+    <div class="grid-item grid-item-header" id="headr">
+        <a class="header" href="/bingo/">VROOMATES F1 BINGO</a>
+    </div>
         {% for s in squares: %}
             
             <div class="grid-item grid-item-square" id="square{{loop.index}}" onclick="setColor('square{{loop.index}}', '#101010')">{{s}}</div>

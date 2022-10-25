@@ -1,5 +1,5 @@
 Wing damage
-Tire damage
+Tyre damage
 Yellow flag
 Red flag
 Fun fact about host country
@@ -44,3 +44,4 @@ Animal sighting
 Second-tier national flag
 Alex Albon is adorable
 Black and orange flag
+The undercut
